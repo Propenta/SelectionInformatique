@@ -82,7 +82,7 @@ int main(void)
                 printf("\nCombien de personne souhaitez vous selectionner : ");
                 scanf("%d", &choix);
                 printf("En fonction de quel critere souhaitez vous effectuer la selection cette annee ?\n");
-                printf("\n1. Les plus meritant en math \t2. Les plus meritant en Info \3. Les plus meritant en Math et Info\n");
+                printf("\n1. Les plus meritant en math \t2. Les plus meritant en Info \t3. Les plus meritant en Math et Info\n");
                 printf("\t4. Les plus meritant en Math et Anglais; \t 5. Les plus meritant en math, info et anglais \n\n");
                 printf("Votre choix : ");
                 scanf("%d",&n);
@@ -96,6 +96,7 @@ int main(void)
             
             case 7 : 
                 AfficherSelectionne();
+                break;
 
             default : 
                 printf("Mauvaise valeur, veuillez choisir soit 1 soit 2, ou alors 0 pour sortir du programme\n");
